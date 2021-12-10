@@ -184,7 +184,7 @@ class Connection extends EmbeddedDocument {
                 this.version
               ),
               method: 'post',
-              timeout: 3000
+              timeout: 6000
             },
             agent ? { ...agent } : {},
             {
